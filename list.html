@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>潍坊晚安</title>
+		<link  rel="stylesheet"  href="css/main.css"/>
+		<script src="js/setHomeSetFav.js" type="text/javascript" charset="gb2312"></script>
+	</head>	
+	<body>
+		<header>
+			<div class="top">
+				<div class="top-content">
+					<ul>
+						<li><a href="#">联系我们</a></li>
+						<li><a href="#" onclick="AddFavorite(window.location,document.title)">加入收藏</a></li>
+						<li><a href="#" onclick="SetHome(window.location)">设置首页</a></li>
+					</ul>
+				</div>
+			</div>
+		</header><!--收藏栏结束-->
+		<div class="main">
+			<div class="logo">
+				<div class="logo-left">
+					<img src="img/mention.gif" alt="潍坊晚安"/>
+				</div>
+				<div class="main-title">Goodnight Weifang</div>
+				<div class="logo-right" >
+					<img src="img/tel.jpg" alt="服务热线"/><div>24小时服务热线：<span class="tel">123-456-7890 </span> </div>
+				</div>
+			</div><!--logo结束-->
+			<nav>
+				<div class="nav-left"></div>
+				<div class="nav-mid">
+					<div class="nav-mid-left">
+						<ul>
+							<li><a href="list.html">关于我们</a></li>
+							<li><a href="list.html">往期回顾	</a></li>
+							<li><a href="list.html">主播简介</a></li>
+							<li><a href="list.html">在线互动</a></li>
+							<li><a href="list.html">伙伴招募</a></li>
+						</ul>
+					</div>
+					<div class="nav-mid-right">
+						<form action="" method="post">
+							<input type="text" placeholder="Search Here..." class="search-text"/>
+							<button type="submit" class="search-button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+					  	</form>
+					</div>
+				</div>
+				<div class="nav-right"></div>
+			</nav><!--导航栏结束-->
+			<div class="ad" id="picBox" style="height: 250px;">
+				<img src="img/news-list.jpg"  />
+			</div><!--焦点图库结束-->		
+			<div class="list-main">
+				<div class="news-type">
+					<h2>新闻中心</h2>
+					<div class="news-type-content">
+						<ul>
+							<li><a href="list.html">公共新闻</a></li>
+							<li><a href="list.html">美文推荐</a></li>
+							<li><a href="list.html">新歌速递</a></li>
+							<li><a href="list.html">电影鉴赏</a></li>
+							<li><a href="list.html">原创播音</a></li>
+							<li><a href="list.html">经典翻唱</a></li>
+							<li><a href="list.html">流言终结</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="list-box">
+					<h2>新闻中心</h2>
+					<div class="news-list">
+						<ul>
+							<li><span class="date">2016-08-09</span><a href="news.html">【流言终结者】信“微商”，毁“一生”！</a></li>
+							<li><span class="date">2016-08-10</span><a href="news.html">【Voice Vol.1】给自己的一封信</a></li>
+							<li><span class="date">2016-07-30</span><a href="news.html">【荐】七月上--Jam</a></li>
+							<li><span class="date">2016-06-21</span><a href="news.html" title="aa">【潍坊之声】会呼吸的痛--兜兜翻唱</a></li>
+						    <li><span class="date">2016-08-09</span><a href="news.html">【流言终结者】信“微商”，毁“一生”！</a></li>
+							<li><span class="date">2016-08-10</span><a href="news.html">【Voice Vol.1】给自己的一封信</a></li>
+							<li><span class="date">2016-07-30</span><a href="news.html">【荐】七月上--Jam</a></li>
+							<li><span class="date">2016-06-21</span><a href="news.html" title="aa">【潍坊之声】会呼吸的痛--兜兜翻唱</a></li>
+						    <li><span class="date">2016-08-09</span><a href="news.html">【流言终结者】信“微商”，毁“一生”！</a></li>
+							<li><span class="date">2016-08-10</span><a href="news.html">【Voice Vol.1】给自己的一封信</a></li>
+							<li><span class="date">2016-07-30</span><a href="news.html">【荐】七月上--Jam</a></li>
+						    <li><span class="date">2016-06-21</span><a href="news.html" title="aa">【潍坊之声】会呼吸的痛--兜兜翻唱</a></li>
+						</ul>																	
+					</div><!--列表结束-->
+					<div class="page">
+						<a href="#">首页</a>
+						<a href="#">&lt;</a>
+						<a href="#">1</a>
+						<a href="#">2</a>
+						<a href="#">3</a>
+						<a href="#">&gt;</a>
+						<a href="#">末页</a>
+					</div><!--页码结束-->
+				</div>
+			</div>
+		</div><!--main结束-->	
+		<footer>
+				<div class="copyright">
+					<ul>
+						<li>关于
+							<ul>
+								<li><a href="#">品牌故事</a></li>
+								<li><a href="#">联系我们</a></li>
+								<li><a href="#">加入我们</a></li>
+								<li><a href="#">版权声明</a></li>
+							</ul>
+						</li>
+						<li>课程
+							<ul>
+								<li><a href="#">品牌故事</a></li>
+								<li><a href="#">联系我们</a></li>
+								<li><a href="#">加入我们</a></li>
+								<li><a href="#">版权声明</a></li>
+							</ul>
+						</li>
+						<li>留言
+								<ul>
+								<li><a href="#">品牌故事</a></li>
+								<li><a href="#">联系我们</a></li>
+								<li><a href="#">加入我们</a></li>
+								<li><a href="#">版权声明</a></li>
+							</ul>
+						</li>
+						<li>关注
+								<ul>
+								<li><a href="#">品牌故事</a></li>
+								<li><a href="#">联系我们</a></li>
+								<li><a href="#">加入我们</a></li>
+								<li><a href="#">版权声明</a></li>
+							</ul>
+						</li>
+						</li>
+						<li><img id="copyright-pic" src="img/weixin.png"/>微信关注
+						    <ul>
+						    	<li><img src="img/qrcode2.jpg"/></li>
+						    </ul> 
+						</li>
+					</ul>
+				</div>
+			</footer>
+		
+	</body>
+</html>
